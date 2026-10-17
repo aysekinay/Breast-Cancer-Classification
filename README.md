@@ -1,7 +1,7 @@
 # Breast Cancer Classification with Machine Learning
 
 ## Project Overview
-This academic team project explores machine learning classification models using the Breast Cancer Wisconsin dataset from scikit-learn. The goal was to compare model performance under different data preprocessing techniques.
+This academic team project uses the Breast Cancer Wisconsin dataset from scikit-learn to compare machine learning classification models and preprocessing techniques.
 
 ## Models
 - Logistic Regression
@@ -9,14 +9,12 @@ This academic team project explores machine learning classification models using
 - Random Forest
 
 ## Data Preprocessing and Experiments
-The project compares four approaches:
 1. Baseline models using the original dataset.
 2. Mean imputation after introducing approximately 5% missing values.
 3. Feature selection using Variance Threshold.
-4. Recursive Feature Elimination (RFE) combined with feature scaling using StandardScaler.
+4. Recursive Feature Elimination (RFE) with feature scaling using StandardScaler.
 
 ## Evaluation Metrics
-Model performance was evaluated using:
 - Accuracy
 - F1-score
 - ROC-AUC
@@ -28,7 +26,7 @@ The best reported results were achieved by Logistic Regression with RFE and feat
 - F1-score: 98.6%
 - ROC-AUC: 98.1%
 
-SVM also achieved 98.2% accuracy with RFE and scaling. Random Forest performance was more consistent across the experiments.
+SVM also achieved 98.2% accuracy with RFE and scaling.
 
 ## Technologies
 - Python
@@ -41,27 +39,23 @@ SVM also achieved 98.2% accuracy with RFE and scaling. Random Forest performance
 ## Teamwork
 This project was completed collaboratively by two students as an academic assignment.
 
-## Disclaimer
-This is an educational machine learning project, not a medical diagnostic tool.
-
 ## Installation
-
-Make sure Python is installed on your computer.
-
-Install the required libraries:
+Make sure Python is installed. Install the required libraries:
 
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn
+```
 
 ## How to Run
+Run the scripts from the project folder:
 
 ```bash
 python project_fs1.py
 python project_fs2.py
+```
 
 ## Dataset
-
 The project uses the Breast Cancer Wisconsin dataset provided by scikit-learn.
 
-
-
+## Disclaimer
+This is an educational machine learning project, not a medical diagnostic tool.
