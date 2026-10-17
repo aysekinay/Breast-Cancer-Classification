@@ -48,6 +48,14 @@ This is an educational machine learning project, not a medical diagnostic tool.
 
 Make sure Python is installed on your computer.
 
+## How to Run
+
+Run the scripts from the project folder:
+
+```bash
+python project_fs1.py
+python project_fs2.py
+
 Install the required libraries:
 
 ```bash
