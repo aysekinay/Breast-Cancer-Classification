@@ -56,6 +56,14 @@ Run the scripts from the project folder:
 python project_fs1.py
 python project_fs2.py
 
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn
+```
+
+## Dataset
+
+The project uses the Breast Cancer Wisconsin dataset provided by scikit-learn.
+
 Install the required libraries:
 
 ```bash
