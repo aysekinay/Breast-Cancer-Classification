@@ -43,3 +43,12 @@ This project was completed collaboratively by two students as an academic assign
 
 ## Disclaimer
 This is an educational machine learning project, not a medical diagnostic tool.
+
+## Installation
+
+Make sure Python is installed on your computer.
+
+Install the required libraries:
+
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn
