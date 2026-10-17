@@ -48,23 +48,20 @@ This is an educational machine learning project, not a medical diagnostic tool.
 
 Make sure Python is installed on your computer.
 
-## How to Run
+Install the required libraries:
 
-Run the scripts from the project folder:
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn
+
+## How to Run
 
 ```bash
 python project_fs1.py
 python project_fs2.py
 
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
-```
-
 ## Dataset
 
 The project uses the Breast Cancer Wisconsin dataset provided by scikit-learn.
 
-Install the required libraries:
 
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
+
